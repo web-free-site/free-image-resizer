@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://free-image-resizer.gentillenoir075.workers.dev/sitemap.xml
+Sitemap: https://free-image-resizer.web-free.site/sitemap.xml

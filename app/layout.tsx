@@ -9,7 +9,7 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://free-image-resizer.gentillenoir075.workers.dev"),
+  metadataBase: new URL("https://free-image-resizer.web-free.site"),
   title: { default: "Free Image Resizer", template: "%s" },
   icons: { icon: "/favicon.svg" },
 };

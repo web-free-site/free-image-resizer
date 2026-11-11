@@ -1,6 +1,6 @@
 import { chromium } from "playwright";
 
-const url = "https://free-image-resizer.gentillenoir075.workers.dev/en/resize-image/";
+const url = "https://free-image-resizer.web-free.site/en/resize-image/";
 const browser = await chromium.launch({ headless: true });
 const page = await browser.newPage();
 

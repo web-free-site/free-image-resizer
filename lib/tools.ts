@@ -37,7 +37,7 @@ export function getTool(slug: string): ToolPage | undefined {
   return tools.find((t) => t.slug === slug);
 }
 
-const SITE = "https://free-image-resizer.gentillenoir075.workers.dev";
+const SITE = "https://free-image-resizer.web-free.site";
 
 export function canonical(locale: Locale, slug?: string): string {
   if (!slug) return `${SITE}/${locale}/`;

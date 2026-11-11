@@ -9,7 +9,7 @@ fs.writeFileSync("/tmp/tiny.png", png);
 
 const browser = await chromium.launch({ headless: true });
 const page = await browser.newPage();
-await page.goto("https://free-image-resizer.gentillenoir075.workers.dev/en/resize-image/");
+await page.goto("https://free-image-resizer.web-free.site/en/resize-image/");
 await page.setInputFiles("#fir-image-upload", "/tmp/tiny.png");
 await page.fill("#fir-width", "5");
 await page.click('button:has-text("Apply")');

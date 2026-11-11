@@ -3,7 +3,7 @@ import { locales } from "@/lib/i18n";
 import { tools } from "@/lib/tools";
 import { legalSlugs } from "@/lib/legal";
 
-const base = "https://free-image-resizer.gentillenoir075.workers.dev";
+const base = "https://free-image-resizer.web-free.site";
 
 export const dynamic = "force-static";
 
