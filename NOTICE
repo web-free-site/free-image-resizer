@@ -1,0 +1,14 @@
+Free Image Resizer
+
+Based on Squoosh by Google Chrome Labs
+https://github.com/GoogleChromeLabs/squoosh
+
+Copyright 2020 Google Inc.
+
+This product includes software developed by Google Chrome Labs (Squoosh)
+under the Apache License, Version 2.0. See LICENSE.
+
+Image codecs are used via @jsquash packages derived from Squoosh WASM modules.
+Original Squoosh source is preserved in vendor/squoosh/ for reference.
+
+Modifications copyright Gentil M.
