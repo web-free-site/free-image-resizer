@@ -1,42 +1,42 @@
 {
-  "_comment": "Adsterra — banners use isolated iframes (atOptions is global per frame). Redeploy after edits.",
+  "_comment": "Adsterra \u2014 banners use isolated iframes (atOptions is global per frame). Redeploy after edits.",
   "banners": {
     "banner728x90": {
-      "key": "dd6c7b29b539d1acef95bbc32a0ae671",
+      "key": "5318c4cbef8228f276629febacccaa24",
       "width": 728,
       "height": 90
     },
     "banner468x60": {
-      "key": "32ca5431be18d37db965c1b3e5e2963d",
+      "key": "493bf3e75e071ce4fd2c79c9ad0f246c",
       "width": 468,
       "height": 60
     },
     "banner300x250": {
-      "key": "d58d2651bd1c1adec44fa354b8f48546",
+      "key": "46dcac14381fabc3f7fd172aee974b9f",
       "width": 300,
       "height": 250
     },
     "banner160x600": {
-      "key": "edb872f955386ce29db8b01a55595614",
+      "key": "5b936e44448bac2054bdfd748680c404",
       "width": 160,
       "height": 600
     },
     "banner160x300": {
-      "key": "bc56b5b722e5820cea3a2a69ea6b3244",
+      "key": "a350d508eba443868807b8a57d67a148",
       "width": 160,
       "height": 300
     },
     "banner320x50": {
-      "key": "d8d0b0f55fb6f89a9ac5104b46f1b77b",
+      "key": "ff6628f6a49a22aecd6da0e0f3c324e9",
       "width": 320,
       "height": 50
     }
   },
-  "nativeBanner": "<script async=\"async\" data-cfasync=\"false\" src=\"https://pl32315563.profitableratecpmnetwork.com/4dd8ed256da14cb9419ff27bbbabc1b4/invoke.js\"></script><div id=\"container-4dd8ed256da14cb9419ff27bbbabc1b4\"></div>",
-  "popunder": "https://pl32315562.profitableratecpmnetwork.com/19/2a/9d/192a9db93d342ed79c93a3428fd51199.js",
-  "socialBar": "https://pl32315565.profitableratecpmnetwork.com/45/7a/9a/457a9a1ea9e83f73b43eca3c222854ac.js",
+  "nativeBanner": "<script async=\"async\" data-cfasync=\"false\" src=\"https://pl32319925.profitableratecpmnetwork.com/e99eec6ecfc8b8314178534c0f1a7914/invoke.js\"></script><div id=\"container-e99eec6ecfc8b8314178534c0f1a7914\"></div>",
+  "popunder": "https://pl32319838.profitableratecpmnetwork.com/59/4b/3c/594b3c2fdc6807ea0a159840da643682.js",
+  "socialBar": "https://pl32319927.profitableratecpmnetwork.com/91/41/17/9141175eda7243e03f2c0c9dabb41bb8.js",
   "smartlink": {
-    "url": "https://www.profitableratecpmnetwork.com/tug7yzb71v?key=fc1974f3fa22bb921a790bb5b7f6f1f0",
+    "url": "https://www.profitableratecpmnetwork.com/cbxtqdhcgx?key=26b583c42b3cb1b09c68552fab65a3cf",
     "label": "Sponsored"
   }
 }

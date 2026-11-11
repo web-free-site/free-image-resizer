@@ -25,8 +25,8 @@ const slots = await page.$$eval("[data-ad-slot]", (els) =>
 
 const sponsored = await page.getByRole("link", { name: "Sponsored" }).count();
 const scriptsInHtml = await page.content();
-const hasPop = scriptsInHtml.includes("pl32315562");
-const hasSocial = scriptsInHtml.includes("pl32315565");
+const hasPop = scriptsInHtml.includes("pl32319838");
+const hasSocial = scriptsInHtml.includes("pl32319927");
 
 console.log(JSON.stringify({ hits, slots, sponsored, hasPop, hasSocial, hitCount: hits.length }, null, 2));
 
