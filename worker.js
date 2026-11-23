@@ -23,6 +23,10 @@ function withoutEtag(res) {
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
+    if (url.pathname === '/en' || url.pathname === '/en/') {
+      url.pathname = '/';
+      return Response.redirect(url.toString(), 301);
+    }
     const a = adfixAsset(url); if (a) return a;
     if (url.pathname.startsWith('/ads/units/')) {
       return new Response('<!DOCTYPE html><html><head><meta charset="utf-8"></head><body style="margin:0"></body></html>', { headers: { 'content-type': 'text/html; charset=utf-8', 'cache-control': 'public, max-age=300' } });

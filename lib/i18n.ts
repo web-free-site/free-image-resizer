@@ -6,7 +6,7 @@ export const siteName = "Free Image Resizer";
 
 export function localePath(locale: Locale, path = ""): string {
   const base = `/${locale}`;
-  if (!path || path === "/") return base;
+  if (!path || path === "/") return locale === "en" ? "/" : base;
   return `${base}${path.startsWith("/") ? path : `/${path}`}`;
 }
 
