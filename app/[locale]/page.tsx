@@ -20,8 +20,8 @@ export async function generateMetadata({
       canonical: url,
       languages: { en: canonical("en"), fr: canonical("fr") },
     },
-    openGraph: { title: seo.title, description: seo.description, url, type: "website" },
-    twitter: { card: "summary_large_image", title: seo.title, description: seo.description },
+    openGraph: { title: seo.title, description: seo.description, url, type: "website", images: [{ url: "/og.png", width: 1200, height: 630 }],},
+    twitter: { card: "summary_large_image", title: seo.title, description: seo.description, images: ["/og.png"],},
   };
 }
 

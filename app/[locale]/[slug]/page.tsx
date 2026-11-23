@@ -38,8 +38,8 @@ export async function generateMetadata({
         fr: canonical("fr", slug),
       },
     },
-    openGraph: { title: seo.title, description: seo.description, url, type: "website" },
-    twitter: { card: "summary", title: seo.title, description: seo.description },
+    openGraph: { title: seo.title, description: seo.description, url, type: "website", images: [{ url: "/og.png", width: 1200, height: 630 }],},
+    twitter: { card: "summary", title: seo.title, description: seo.description, images: ["/og.png"],},
   };
 }
 
